@@ -1,0 +1,212 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradients -->
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#060911" />
+      <stop offset="50%" stop-color="#0a101d" />
+      <stop offset="100%" stop-color="#04060b" />
+    </linearGradient>
+
+    <linearGradient id="cyan-blue-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00f2fe" />
+      <stop offset="50%" stop-color="#00e5ff" />
+      <stop offset="100%" stop-color="#3b82f6" />
+    </linearGradient>
+
+    <linearGradient id="title-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ffffff" />
+      <stop offset="40%" stop-color="#ffffff" />
+      <stop offset="75%" stop-color="#a5f3fc" />
+      <stop offset="100%" stop-color="#38bdf8" />
+    </linearGradient>
+
+    <linearGradient id="border-glow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00e5ff" stop-opacity="0.6" />
+      <stop offset="50%" stop-color="#3b82f6" stop-opacity="0.2" />
+      <stop offset="100%" stop-color="#8b5cf6" stop-opacity="0.6" />
+    </linearGradient>
+
+    <linearGradient id="line-glow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00e5ff" stop-opacity="0" />
+      <stop offset="50%" stop-color="#00e5ff" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#3b82f6" stop-opacity="0" />
+    </linearGradient>
+
+    <!-- Subtle Dot Grid Pattern -->
+    <pattern id="dot-grid" x="0" y="0" width="30" height="30" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#00e5ff" fill-opacity="0.08" />
+    </pattern>
+
+    <!-- Technical Grid Pattern -->
+    <pattern id="grid" x="0" y="0" width="60" height="60" patternUnits="userSpaceOnUse">
+      <line x1="0" y1="0" x2="60" y2="0" stroke="#00e5ff" stroke-width="0.5" stroke-opacity="0.04" />
+      <line x1="0" y1="0" x2="0" y2="60" stroke="#00e5ff" stroke-width="0.5" stroke-opacity="0.04" />
+    </pattern>
+
+    <!-- Glow Filter -->
+    <filter id="neon-glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    <filter id="subtle-glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="1.5" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+
+  <style>
+    .mono { font-family: 'JetBrains Mono', 'SF Mono', 'Fira Code', 'Segoe UI Mono', monospace; }
+    .sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; }
+    .title { font-weight: 900; letter-spacing: 3px; }
+    .subtitle { font-weight: 600; letter-spacing: 2px; }
+    .telemetry { font-weight: 500; letter-spacing: 1.5px; }
+    .tag { font-weight: 500; font-size: 11px; letter-spacing: 1px; }
+  </style>
+
+  <!-- Outer Canvas Base -->
+  <rect width="1200" height="420" rx="16" fill="url(#bg-grad)" />
+
+  <!-- Background Grids -->
+  <rect width="1200" height="420" rx="16" fill="url(#grid)" />
+  <rect width="1200" height="420" rx="16" fill="url(#dot-grid)" />
+
+  <!-- Cybernetic Ambient Glow Orbs -->
+  <circle cx="200" cy="100" r="180" fill="#00e5ff" fill-opacity="0.03" filter="url(#neon-glow)" />
+  <circle cx="1000" cy="320" r="220" fill="#3b82f6" fill-opacity="0.04" filter="url(#neon-glow)" />
+  <circle cx="600" cy="210" r="140" fill="#8b5cf6" fill-opacity="0.02" filter="url(#neon-glow)" />
+
+  <!-- Futuristic Border Container -->
+  <rect x="20" y="20" width="1160" height="380" rx="12" fill="none" stroke="url(#border-glow)" stroke-width="1.2" stroke-opacity="0.5" />
+  <rect x="24" y="24" width="1152" height="372" rx="10" fill="none" stroke="#00e5ff" stroke-width="0.5" stroke-opacity="0.15" />
+
+  <!-- Corner Brackets (Cyber Accents) -->
+  <!-- Top Left -->
+  <path d="M 16 48 L 16 16 L 48 16" fill="none" stroke="#00e5ff" stroke-width="3" filter="url(#subtle-glow)" />
+  <!-- Top Right -->
+  <path d="M 1152 16 L 1184 16 L 1184 48" fill="none" stroke="#00e5ff" stroke-width="3" filter="url(#subtle-glow)" />
+  <!-- Bottom Left -->
+  <path d="M 16 372 L 16 404 L 48 404" fill="none" stroke="#00e5ff" stroke-width="3" filter="url(#subtle-glow)" />
+  <!-- Bottom Right -->
+  <path d="M 1152 404 L 1184 404 L 1184 372" fill="none" stroke="#00e5ff" stroke-width="3" filter="url(#subtle-glow)" />
+
+  <!-- Decorative Circuit Traces -->
+  <!-- Top Trace -->
+  <path d="M 180 20 L 220 20 L 235 35 L 350 35" fill="none" stroke="#00e5ff" stroke-width="1" stroke-opacity="0.3" />
+  <circle cx="350" cy="35" r="2.5" fill="#00e5ff" fill-opacity="0.6" />
+
+  <!-- Right Circuit Trace -->
+  <path d="M 1180 180 L 1160 180 L 1145 195 L 1145 270 L 1130 285 L 1050 285" fill="none" stroke="#3b82f6" stroke-width="1" stroke-opacity="0.3" />
+  <circle cx="1050" cy="285" r="3" fill="#3b82f6" fill-opacity="0.7" />
+
+  <!-- Left Circuit Trace -->
+  <path d="M 20 240 L 45 240 L 60 255 L 60 310 L 75 325 L 140 325" fill="none" stroke="#00e5ff" stroke-width="1" stroke-opacity="0.3" />
+  <circle cx="140" cy="325" r="3" fill="#00e5ff" fill-opacity="0.7" />
+
+  <!-- Top System Telemetry Bar -->
+  <g transform="translate(45, 52)">
+    <!-- Terminal Dots -->
+    <circle cx="0" cy="0" r="4.5" fill="#ef4444" fill-opacity="0.8" />
+    <circle cx="15" cy="0" r="4.5" fill="#eab308" fill-opacity="0.8" />
+    <circle cx="30" cy="0" r="4.5" fill="#22c55e" fill-opacity="0.8" />
+
+    <!-- Terminal Status Text -->
+    <text x="50" y="4" class="mono telemetry" font-size="11" fill="#64748b">KRISHNA.SHARMA // SYSTEM_ID: thekrishna7</text>
+
+    <!-- Node Status Pill (Right Aligned in Telemetry Bar) -->
+    <rect x="880" y="-12" width="220" height="24" rx="12" fill="#0d1b2a" stroke="#00e5ff" stroke-width="0.8" stroke-opacity="0.4" />
+    <circle cx="896" cy="0" r="4" fill="#00e5ff" filter="url(#subtle-glow)" />
+    <text x="908" y="4" class="mono tag" fill="#38bdf8">SYS_STATUS: ACTIVE BUILDER</text>
+  </g>
+
+  <!-- Horizontal Divider Line Under Top Bar -->
+  <line x1="45" y1="72" x2="1155" y2="72" stroke="#1e293b" stroke-width="1" />
+  <line x1="200" y1="72" x2="600" y2="72" stroke="url(#line-glow)" stroke-width="1.5" />
+
+  <!-- Center Identity Block -->
+  <g transform="translate(60, 115)">
+    <!-- Mode Indicator Badge -->
+    <rect x="0" y="0" width="230" height="26" rx="6" fill="#0f172a" stroke="#00e5ff" stroke-width="1" stroke-opacity="0.5" />
+    <path d="M 0 0 L 14 13 L 0 26 Z" fill="#00e5ff" fill-opacity="0.2" />
+    <text x="24" y="17" class="mono telemetry" font-size="11" fill="#00e5ff">◈ KRISHNA // BUILDER MODE</text>
+
+    <!-- Main Name Title -->
+    <text x="0" y="85" class="sans title" font-size="62" fill="url(#title-grad)" filter="url(#subtle-glow)">KRISHNA SHARMA</text>
+
+    <!-- Engineering Subtitle -->
+    <text x="2" y="125" class="mono subtitle" font-size="15" fill="#38bdf8">
+      STUDENT DEVELOPER <tspan fill="#64748b">//</tspan> AI PRODUCT BUILDER <tspan fill="#64748b">//</tspan> SOFTWARE CREATOR
+    </text>
+
+    <!-- Positioning Statement -->
+    <text x="2" y="158" class="sans" font-size="17" font-weight="400" fill="#94a3b8">
+      Turning ideas into high-utility products with code, artificial intelligence, and a builder's mindset.
+    </text>
+  </g>
+
+  <!-- Geometric Tech Icon / AI Matrix Artwork on the Right -->
+  <g transform="translate(980, 185)">
+    <!-- Outer Rotated Square -->
+    <rect x="-65" y="-65" width="130" height="130" rx="18" fill="none" stroke="#3b82f6" stroke-width="1.2" stroke-opacity="0.4" transform="rotate(45)" />
+    <!-- Inner Rotated Square -->
+    <rect x="-45" y="-45" width="90" height="90" rx="10" fill="#0a101d" stroke="#00e5ff" stroke-width="1.5" stroke-opacity="0.7" transform="rotate(45)" filter="url(#subtle-glow)" />
+    <!-- Core Diamond Element -->
+    <polygon points="0,-22 22,0 0,22 -22,0" fill="url(#cyan-blue-grad)" filter="url(#subtle-glow)" />
+    <!-- Center Tech Core -->
+    <circle cx="0" cy="0" r="5" fill="#ffffff" />
+
+    <!-- Orbital Ring & Ticks -->
+    <circle cx="0" cy="0" r="95" fill="none" stroke="#00e5ff" stroke-width="0.8" stroke-dasharray="4 8" stroke-opacity="0.4" />
+    <circle cx="0" cy="0" r="115" fill="none" stroke="#8b5cf6" stroke-width="0.6" stroke-dasharray="2 12" stroke-opacity="0.3" />
+
+    <!-- Satellite Nodes -->
+    <circle cx="67" cy="-67" r="4" fill="#00e5ff" filter="url(#subtle-glow)" />
+    <circle cx="-67" cy="67" r="4" fill="#3b82f6" filter="url(#subtle-glow)" />
+    <circle cx="0" cy="-95" r="3" fill="#38bdf8" />
+    <circle cx="0" cy="95" r="3" fill="#38bdf8" />
+  </g>
+
+  <!-- Bottom Divider Line -->
+  <line x1="45" y1="330" x2="1155" y2="330" stroke="#1e293b" stroke-width="1" />
+  <line x1="550" y1="330" x2="950" y2="330" stroke="url(#line-glow)" stroke-width="1.5" />
+
+  <!-- Bottom Badges / Telemetry Chips -->
+  <g transform="translate(45, 362)">
+    <!-- Chip 1: Academic -->
+    <g transform="translate(0, 0)">
+      <rect x="0" y="-16" width="245" height="28" rx="6" fill="#0b1329" stroke="#1e293b" stroke-width="1" />
+      <circle cx="16" cy="-2" r="3" fill="#38bdf8" />
+      <text x="28" y="2" class="mono tag" fill="#cbd5e1">B.Tech CSE @ WCTM Gurugram</text>
+    </g>
+
+    <!-- Chip 2: Venture / Studio -->
+    <g transform="translate(260, 0)">
+      <rect x="0" y="-16" width="225" height="28" rx="6" fill="#0b1329" stroke="#1e293b" stroke-width="1" />
+      <circle cx="16" cy="-2" r="3" fill="#00e5ff" />
+      <text x="28" y="2" class="mono tag" fill="#cbd5e1">The Digital Fixer Studio</text>
+    </g>
+
+    <!-- Chip 3: Focus Areas -->
+    <g transform="translate(500, 0)">
+      <rect x="0" y="-16" width="245" height="28" rx="6" fill="#0b1329" stroke="#1e293b" stroke-width="1" />
+      <circle cx="16" cy="-2" r="3" fill="#8b5cf6" />
+      <text x="28" y="2" class="mono tag" fill="#cbd5e1">AI • Full-Stack • Automation</text>
+    </g>
+
+    <!-- Chip 4: Creator Handle -->
+    <g transform="translate(760, 0)">
+      <rect x="0" y="-16" width="180" height="28" rx="6" fill="#0b1329" stroke="#1e293b" stroke-width="1" />
+      <circle cx="16" cy="-2" r="3" fill="#22c55e" />
+      <text x="28" y="2" class="mono tag" fill="#cbd5e1">@krishnaaa.builds</text>
+    </g>
+
+    <!-- Coordinates / Tech Stamp -->
+    <text x="965" y="2" class="mono tag" fill="#475569">28.4595° N, 77.0266° E</text>
+  </g>
+</svg>
