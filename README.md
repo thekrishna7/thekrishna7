@@ -315,3 +315,144 @@ Looking to collaborate on an ambitious AI project, discuss software architecture
   </p>
 
 </div>
+
+<br/>
+
+<div align="center">
+  <img src="assets/cyber-divider.svg" width="100%" alt="Divider" />
+</div>
+
+<br/>
+
+## 🔬 // CURRENTLY EXPLORING
+
+Beyond active production builds, here are the technical frontiers and emerging domains I am actively investigating and experimenting with:
+
+```text
+┌────────────────────────────────────────────────────────────────────────────────────────┐
+│  ACTIVE EXPLORATION MATRIX // THEKRISHNA7                                              │
+├───────────────────────────────┬────────────────────────────────────────────────────────┤
+│  Domain                       │  Current Deep Dive & Research Direction                │
+├───────────────────────────────┼────────────────────────────────────────────────────────┤
+│  Autonomous AI Agents         │  Multi-agent tool use, local memory grounding, and     │
+│                               │  desktop-level autonomous function execution loops.    │
+│  Generative AI & LLMs         │  Structured JSON extraction, function-calling schemas, │
+│                               │  and low-latency inference pipelines (Gemini Flash).   │
+│  Computer Vision & Gesture UI │  MediaPipe hand/body tracking, spatial angle math, and │
+│                               │  zero-hardware natural user interfaces (NUI).          │
+│  Full-Stack & Cloud Systems   │  Next.js 15 App Router architecture, Prisma ORM, and   │
+│                               │  serverless PostgreSQL database keep-alive patterns.   │
+│  Cross-Platform Mobile & OS   │  Flutter state machines (Riverpod), Capacitor Android  │
+│                               │  bridges, and native Windows desktop hooks (PyQt6).    │
+│  Software Product Engineering │  Turning business friction into intuitive, self-       │
+│                               │  serve software products and developer utilities.      │
+└───────────────────────────────┴────────────────────────────────────────────────────────┘
+```
+
+<br/>
+
+<div align="center">
+  <img src="assets/cyber-divider.svg" width="100%" alt="Divider" />
+</div>
+
+<br/>
+
+## 🔄 // THE BUILDER'S WORKFLOW
+
+```text
+  ┌──────────┐       ┌──────────┐       ┌──────────┐       ┌───────────┐       ┌──────────┐
+  │  LEARN   │ ───>  │  BUILD   │ ───>  │   TEST   │ ───>  │  IMPROVE  │ ───>  │  REPEAT  │
+  └──────────┘       └──────────┘       └──────────┘       └───────────┘       └──────────┘
+       ▲                                                                            │
+       └───────────────────────── THE EXECUTION LOOP ───────────────────────────────┘
+```
+
+> *"True engineering is not about passive consumption—it is about turning ideas into useful, battle-tested software through relentless implementation."*
+
+* **01. LEARN** — Deconstruct system mechanics, API protocols, and foundational computer science principles through hands-on inquiry.
+* **02. BUILD** — Transform concepts into functional prototypes without waiting for perfect conditions or complete roadmaps.
+* **03. TEST** — Pressure-test in real environments—catching edge cases, latency bottlenecks, and database migration hurdles.
+* **04. IMPROVE** — Refine the user experience, eliminate bloat, optimize responsiveness, and polish code ergonomics.
+* **05. REPEAT** — Take learned insights into the next challenge, continuously raising the engineering bar.
+
+<br/>
+
+<div align="center">
+  <img src="assets/cyber-divider.svg" width="100%" alt="Divider" />
+</div>
+
+<br/>
+
+## 🏆 // VERIFIED MILESTONES & ACHIEVEMENTS
+
+Verifiable technical milestones documented across my public repositories and production deployments:
+
+* 🚀 **17+ Public Codebases Shipped**: Continuously creating, maintaining, and documenting open projects across Python, TypeScript, and Flutter.
+* 🧾 **Sadbhawana BillDesk Enterprise (v2.5.0)**: Engineered and deployed a full-stack billing & inventory ERP with live automated GST calculations, stock valuation tracking, and native Capacitor Android bundling.
+* 🎙️ **K-10 Native Cognitive Assistant**: Designed and packaged an autonomous Windows desktop operator featuring a custom voice wake engine, hardware telemetry, window quadrant snapping, and remote WebSocket mobile sync.
+* 🎓 **Testora AI Assessment Pipeline**: Architected an end-to-end question paper creation system with a guided 15-step wizard, 8-stage AI duplicate elimination pipeline, and automated GitHub Actions release builds.
+* 🎮 **Zero-Hardware Gesture Interface**: Built a real-time computer vision virtual driving controller with dual-wrist angle steering and proportional PWM throttle emulation using OpenCV and MediaPipe.
+* 🏃 **On-Device Fitness Computer Vision**: Implemented real-time joint-geometry state machines for push-ups, squats, and planks in the Habitude mobile app.
+* 🌐 **Founder @ The Digital Fixer**: Establishing digital software solutions, agency tooling, and product development architectures.
+
+<br/>
+
+<div align="center">
+  <img src="assets/cyber-divider.svg" width="100%" alt="Divider" />
+</div>
+
+<br/>
+
+## 💡 // BEYOND THE CODE
+
+Building impactful technology requires more than writing algorithms—it demands curiosity, discipline, and a holistic product vision:
+
+* **Product Mindset & Entrepreneurship**: Creating software that solves real operational bottlenecks for real people, publications, and businesses.
+* **Democratizing AI Utility**: Taking artificial intelligence out of static chat boxes and embedding it into daily operating systems, classroom workflows, and business ledgers.
+* **Education & Developer Empowerment**: Building tools that simplify teaching, reduce administrative overhead, and make complex technical tasks approachable.
+* **Continuous Engineering Growth**: Actively expanding from computer science engineering fundamentals at WCTM Gurugram into scalable distributed systems, computer vision systems, and AI agent architectures.
+
+<br/>
+
+<div align="center">
+  <img src="assets/cyber-divider.svg" width="100%" alt="Divider" />
+</div>
+
+<br/>
+
+## 🤝 // CONNECT & COLLABORATE
+
+Whether you want to collaborate on an ambitious AI build, discuss system design, brainstorm product ideas, or talk code—let's connect:
+
+<div align="center">
+
+  <br/>
+
+  <a href="https://github.com/thekrishna7">
+    <img src="https://img.shields.io/badge/GitHub-thekrishna7-0D1117?style=for-the-badge&logo=github&logoColor=00E5FF&labelColor=080C14" alt="GitHub" />
+  </a>
+  &nbsp;
+  <a href="https://thedigitalfixer.in">
+    <img src="https://img.shields.io/badge/Venture-The_Digital_Fixer-0D1117?style=for-the-badge&logo=googlechrome&logoColor=00E5FF&labelColor=080C14" alt="The Digital Fixer" />
+  </a>
+  &nbsp;
+  <a href="https://www.linkedin.com/in/krishna-sharma-45b1243a3/">
+    <img src="https://img.shields.io/badge/LinkedIn-Krishna_Sharma-0D1117?style=for-the-badge&logo=linkedin&logoColor=00E5FF&labelColor=080C14" alt="LinkedIn" />
+  </a>
+  &nbsp;
+  <a href="https://www.instagram.com/krishnaaa.builds/">
+    <img src="https://img.shields.io/badge/Instagram-@krishnaaa.builds-0D1117?style=for-the-badge&logo=instagram&logoColor=00E5FF&labelColor=080C14" alt="Instagram" />
+  </a>
+
+  <br/><br/>
+
+  <p>
+    <b>"Code is the tool. Impact is the goal. Keep building."</b><br/>
+    <sub>Krishna Sharma • Student Developer, AI Builder & Founder • Gurugram, India</sub>
+  </p>
+
+  <p>
+    <a href="#-krishna--builder-mode"><b>▲ Back to Top</b></a>
+  </p>
+
+</div>
