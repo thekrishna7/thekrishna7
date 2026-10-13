@@ -17,7 +17,7 @@
 
   <!-- DYNAMIC TYPING HEADLINE -->
   <a href="https://github.com/thekrishna7">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1000&color=00E5FF&center=true&vCenter=true&width=620&height=45&lines=B.Tech+CSE+Student+%7C+WCTM+Gurugram;AI+Product+Builder+%26+Software+Creator;Full-Stack+Web+%26+Desktop+Engineer;Turning+Ideas+Into+Useful+Products" alt="Krishna Sharma Typing Headline" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1000&color=00E5FF&center=true&vCenter=true&width=620&height=45&lines=B.Tech+CSE+Student+%7C+WCTM+Gurugram;Architecting+VYAPAR+AI;AI+Product+Builder+%26+Software+Creator;Full-Stack+Web+%26+Desktop+Engineer;Turning+Ideas+Into+Useful+Products" alt="Krishna Sharma Typing Headline" />
   </a>
 
   <!-- POSITIONING STATEMENT -->
@@ -75,7 +75,26 @@ Here are the primary projects I am actively engineering, testing, and refining:
 
 <br/>
 
-### 1. 🎙️ K-10 Assistant — Autonomous Cognitive Desktop AI Operator
+### 1. 💼 VYAPAR AI — Autonomous AI Business Copilot & Commerce OS
+> **An intelligent, next-gen business operating system, conversational invoicing copilot, and financial intelligence platform for modern enterprises & MSMEs.**
+
+* **The Problem:** Traditional billing software and ERP systems are tedious, manual, and reactive—requiring endless menu navigation, manual data entry, complex tax categorization, and disconnected ledger reconciliation.
+* **The Innovation:** Combines LLM agentic reasoning with automated GST compliance, conversational billing generation, real-time stock velocity forecasting, automated WhatsApp/Email customer payment reminders, and natural language financial intelligence—allowing business owners to operate entire commercial workflows through natural language prompts.
+* **Stack:** `Next.js 15` • `TypeScript` • `Python / FastAPI` • `Google Gemini LLM` • `PostgreSQL / Supabase` • `Prisma ORM` • `Tailwind CSS`
+* **Status:** `Active Engineering & Architecture // Product Studio Build`
+* **Links:** [Product Studio @ The Digital Fixer](https://thedigitalfixer.in) • [Follow Updates on GitHub](https://github.com/thekrishna7)
+
+```text
+[Business Owner Prompt / Voice] ──> [VYAPAR AI Agent Core] ──> [LLM Reasoning Engine]
+                                          │                              │
+                                          ├──> [Conversational Invoicing] ├──> [GST Compliance & Tax Matrix]
+                                          ├──> [Inventory Velocity AI]   ├──> [Automated Client Ledgers]
+                                          └──> [Predictive Cash Flow]    └──> [Multi-Channel Dispatch]
+```
+
+<br/>
+
+### 2. 🎙️ K-10 Assistant — Autonomous Cognitive Desktop AI Operator
 > **A minimal, modern, futuristic, and premium cognitive AI assistant for native Windows environments.**
 
 * **The Problem:** Generic AI chatbots are locked inside browser tabs and cannot interact with local operating systems, manage windows, control media, or automate daily workstation routines.
@@ -95,7 +114,7 @@ Here are the primary projects I am actively engineering, testing, and refining:
 
 <br/>
 
-### 2. 🧾 Sadbhawana BillDesk (v2.5.0 Enterprise) — Business Invoicing & ERP
+### 3. 🧾 Sadbhawana BillDesk (v2.5.0 Enterprise) — Business Invoicing & ERP
 > **Next-generation business invoicing, stock management master, CRM, and financial platform.**
 
 * **The Problem:** Small businesses and publishing distributors struggle with disjointed billing systems, manual tax calculations, inventory stock tracking, and missing mobile accessibility.
@@ -106,7 +125,7 @@ Here are the primary projects I am actively engineering, testing, and refining:
 
 <br/>
 
-### 3. 🎓 Testora AI — AI-Powered Assessment & Question Paper Engine
+### 4. 🎓 Testora AI — AI-Powered Assessment & Question Paper Engine
 > **A teacher-only, AI-powered assessment and exam paper generation platform.**
 
 * **The Problem:** Crafting comprehensive, syllabus-aligned question papers with verified marking schemes and difficulty curves takes hours of manual effort for educators.
@@ -114,17 +133,6 @@ Here are the primary projects I am actively engineering, testing, and refining:
 * **Stack:** `Flutter (Dart)` • `Riverpod 2.x` • `Node.js` • `Express` • `TypeScript` • `Supabase (PostgreSQL)` • `PDFKit & DOCX`
 * **Status:** `Active Development // Automated GitHub Actions APK Builder`
 * **Links:** [Source Code on GitHub](https://github.com/thekrishna7/TESTORA-AI)
-
-<br/>
-
-### 4. 🎮 AI Gesture Virtual Driving Controller — Real-Time Computer Vision
-> **Control racing simulators and car games using hand gestures and a webcam—no physical wheel required.**
-
-* **The Problem:** Dedicated gaming steering wheels and simulator hardware are expensive and bulky for casual simulation gamers.
-* **The Innovation:** Employs MediaPipe and OpenCV to calculate real-time wrist angles between hands for virtual steering wheel rotation, combined with right-hand openness tracking for proportional Pulse-Width Modulation (PWM) throttle acceleration and left-hand braking with safety fail-safe key release priorities.
-* **Stack:** `Python 3.9+` • `OpenCV` • `MediaPipe` • `NumPy` • `Pynput`
-* **Status:** `Tested Functional Desktop Build`
-* **Links:** [Source Code on GitHub](https://github.com/thekrishna7/Krishna-Virtual-Car-Steraring)
 
 <br/>
 
@@ -136,10 +144,11 @@ Here are the primary projects I am actively engineering, testing, and refining:
 
 ## 📂 // SELECTED WORKS & EXPERIMENTS
 
-Additional genuine repositories engineered across publishing, health-tech, and utilities:
+Additional genuine repositories engineered across computer vision, publishing, health-tech, and utilities:
 
 | Project | Description | Core Stack | Access |
 | :--- | :--- | :--- | :--- |
+| **🎮 AI Virtual Driving Controller** | Real-time CV driving controller converting standard webcams into virtual steering wheels via wrist angles & PWM throttle tracking. | `Python` `OpenCV` `MediaPipe` | [Repository](https://github.com/thekrishna7/Krishna-Virtual-Car-Steraring) |
 | **📚 Sadbhawana Author Dashboard** | Enterprise publishing portal for manuscript reviews, ISBN tracking, file version history (`v1`, `v2`), and dual RBAC logins. | `Next.js 15` `TypeScript` `Prisma` `Supabase` | [Repository](https://github.com/thekrishna7/Sadbhawana-Author-Dashbaord) • [Live Demo](https://sadbhawana-author-dashbaord.vercel.app) |
 | **🏃 Habitude Mobile APK** | AI-powered fitness application featuring on-device computer vision pose detection for real-time form coaching on push-ups, squats, and planks. | `Flutter` `Dart` `CV Pose Estimation` | [Repository](https://github.com/thekrishna7/habitudeapk) |
 | **🧮 Insider Calculator** | Precision financial and commission calculation utility engine built for publishing operations. | `TypeScript` `React` `Vercel` | [Repository](https://github.com/thekrishna7/insider-calculator) • [Live Demo](https://insider-calculator.vercel.app) |
