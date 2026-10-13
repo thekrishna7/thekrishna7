@@ -33,6 +33,9 @@
     <a href="https://thedigitalfixer.in">
       <img src="https://img.shields.io/badge/Venture-The_Digital_Fixer-0D1117?style=for-the-badge&logo=googlechrome&logoColor=00E5FF&labelColor=080C14" alt="The Digital Fixer" />
     </a>
+    <a href="https://www.linkedin.com/in/krishna-sharma-45b1243a3/">
+      <img src="https://img.shields.io/badge/LinkedIn-Krishna_Sharma-0D1117?style=for-the-badge&logo=linkedin&logoColor=00E5FF&labelColor=080C14" alt="LinkedIn" />
+    </a>
     <a href="https://www.instagram.com/krishnaaa.builds/">
       <img src="https://img.shields.io/badge/Creator-@krishnaaa.builds-0D1117?style=for-the-badge&logo=instagram&logoColor=00E5FF&labelColor=080C14" alt="Instagram Creator" />
     </a>
@@ -290,6 +293,10 @@ Looking to collaborate on an ambitious AI project, discuss software architecture
   &nbsp;
   <a href="https://thedigitalfixer.in">
     <img src="https://img.shields.io/badge/Venture-The_Digital_Fixer-0D1117?style=for-the-badge&logo=googlechrome&logoColor=00E5FF&labelColor=080C14" alt="The Digital Fixer" />
+  </a>
+  &nbsp;
+  <a href="https://www.linkedin.com/in/krishna-sharma-45b1243a3/">
+    <img src="https://img.shields.io/badge/LinkedIn-Krishna_Sharma-0D1117?style=for-the-badge&logo=linkedin&logoColor=00E5FF&labelColor=080C14" alt="LinkedIn" />
   </a>
   &nbsp;
   <a href="https://www.instagram.com/krishnaaa.builds/">
